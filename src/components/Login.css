@@ -1,0 +1,47 @@
+body{
+    height : 100vh;
+    width : 100%;
+    background : black;
+    color : white;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 5px;
+    width : 8cm;
+}
+.username{
+    padding : 4px 6px;
+    border : 1px solid white;
+    outline: 1px solid white;
+    background: black;
+    color : white;
+    font-size: 16px;
+    width : 8cm;
+    border-radius : 4px;
+}
+.password{
+    padding : 4px 6px;
+    border: 1px solid white;
+    outline: 1px solid white;
+    font-size: 16px;
+    background: black;
+    width : 8cm;
+    border-radius : 4px;
+}
+.button{
+    padding : 4px 6px;
+    width : 120px;
+    background : blue;
+    color : white;
+    font-size: 16px;
+    border : transparent;
+    border-radius : 4px;
+}
